@@ -347,6 +347,18 @@ a:focus {
 /*------------------------------------*\
   #COMPONENTS
 \*------------------------------------*/
+.c-logo {
+    height: 32px;
+}
+.c-logo__symbol {
+    height: 100%;
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .c-logo__symbol {
+        height:40px;
+    }
+}
 
 /*------------------------------------*\
   #UTILITIES
